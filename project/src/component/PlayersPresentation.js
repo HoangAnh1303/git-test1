@@ -22,7 +22,7 @@ export default function PlayersPresentation({ players }) {
 
             <div id="popup1" className="overlay">
                 <div className="popup">
-                    <img src="{player.img}"></img>
+                    <img src={player.img}></img>
                     <h2>{player.name}</h2>
                     <a className="close" href="#">&times;</a>
                     <div className="content">
