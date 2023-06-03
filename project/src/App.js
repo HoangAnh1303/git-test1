@@ -1,15 +1,18 @@
+
 import './App.css';
-import Navigation from './component/Navigation';
-import Player from './Players';
-import Main from './component/Main';
-function App(){
-    return(
-<div className='App'>
-<Navigation/>
-<Main/>
-
-</div>
-
-    );
+import Main from './components/Main';
+import Navigation from './components/Navigation';
+// import Player from './Players';
+import Footer from './Footer';
+function App() {
+  return (
+    <div className="App">
+      <Navigation/>
+      {/* <Player/> */}
+      <Main/>
+      <Footer/>
+    </div>
+  );
 }
+
 export default App;
